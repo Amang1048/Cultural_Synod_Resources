@@ -1,0 +1,39 @@
+*{
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+a{
+    text-decoration: none;
+}
+button{
+   box-shadow: none !important;
+}
+button:active button:focus{
+   border: none !important;
+   text-decoration: none!important;
+   background-color: #555 !important;
+}
+footer {
+    background: #e3f2fd;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
